@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>homework</title>
+        <style type="text/css">
+            table,th,td {
+                border: solid 1px;
+                border-collapse: collapse;
+            }
+            thead {color:green}
+        </style>
+    </head>
+    <body>
+        <h1>图片</h1>
+        <p>本地图片</p><br>
+        <img src="Aman-Jean_Portrait_of_Edmond_François_Aman-Jean.jpg"><br>
+        <p>远程图片</p><br>
+        <img src="http://www.w3school.com.cn/i/w3school_logo_white.gif"><br>
+        <h1>超链接</h1>
+        <a href="1.html#1">本地网页</a><br>
+        <a href="https://www.nbfox.com/self-portrait-23/">远程网页</a><br>
+        <h1>列表</h1>
+        <h2>无序列表</h2>
+        <ul>
+            <li>wu</li>
+            <li>xu</li>
+            <li>de</li>
+        </ul>
+        <h2>有序列表</h2>
+        <ol>
+            <li>you</li>
+            <li>xu</li>
+            <li>de</li>
+        </ol>
+        <h2>列表嵌套</h2>
+        <ul>
+            <li>猫</li>
+            <li>狗
+                <ul>
+                    <li>大型犬</li>
+                    <li>中型犬</li>
+                    <li>小型犬</li>
+                </ul>
+            </li>
+            <li>乌龟</li>
+        </ul>
+        <h1>表格</h1>
+        <table>
+            <caption>课程表</caption>
+            <colgroup>
+                <col span="1" style="background-color: #d7d7d7">
+            </colgroup>
+            <thead>
+                <tr>
+                    <td></td>
+                    <th>周一</th>
+                    <th>周二</th>
+                    <th>周三</th>
+                    <th>周四</th>
+                    <th>周五</th>
+                </tr>
+            </thead>
+            <tr>
+                <th>第一节</th>
+                <td rowspan="2">微积分</td>
+                <td></td>
+                <td></td>
+                <td rowspan="2">思修</td>
+                <td rowspan="2">思修</td>
+            </tr>
+            <tr>
+                <th>第二节</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第三节</th>
+                <td rowspan="3">军事理论</td>
+                <td rowspan="2">微积分</td>
+                <td rowspan="2">近代史</td>
+                <td rowspan="2">近代史</td>
+                <td rowspan="3">大英</td>
+            </tr>
+            <tr>
+                <th>第四节</th>
+            </tr>
+            <tr>
+                <th>第五节</th>
+            </tr>
+            <tr>
+                <th>第六节</th>
+                <td rowspan="3">C语言</td>
+                <td rowspan="2">体育</td>
+                <td></td>
+                <td rowspan="3">C语言</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第七节</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第八节</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第九节</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第十节</th>
+                <td></td>
+                <td rowspan="3">心理</td>
+                <td rowspan="3">WEB</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第十一节</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第十二节</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <h1>表单</h1>
+        <form>
+            用户名：<input type="text"><br>
+            密码：<input type="text"><br>
+            昵称：<input type="text"><br>
+            自我介绍：<textarea>Introduce yourself</textarea><br>
+            班级：
+            <select>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+            </select><br>
+            性别：<br>
+            <input type="radio" name="sex">男<br>
+            <input type="radio" name="sex">女<br>
+            爱好：<br>
+            <input type="checkbox" name="hobby">跑步
+            <input type="checkbox" name="hobby">rap
+            <input type="checkbox" name="hobby">篮球
+            <input type="checkbox" name="hobby">看电影<br>
+            <button>注册</button>
+            <button>忘记密码</button>
+            <button>发送验证码</button><br>
+        </form>
+    </body>
+</html>

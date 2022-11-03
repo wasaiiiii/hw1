@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table{
+                color: red;
+                border: solid 1px;
+                border-collapse: collapse;
+                width:50%;
+                background-color: blue;
+
+            }
+            td{
+                border: solid 1px;
+                padding: 3px;
+            }
+            #aaa{
+                background-color: green;
+            }
+            #bbb{
+                background-color: pink;
+            }
+            #ddd{
+                color:bisque;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="1">耶</p>
+        <form>
+            username: <input type="text"><br/>
+            password: <input ytpe="password"><br/>
+            <input type="radio" name="sex" checked>male<br/>
+            <input type="radio" name="sex">female<br/>
+            班级：
+            <select>
+                <optgroup>
+                <option>软件11班</option>
+                <option>软件12班</option>
+                </optgroup>
+                <optgroup>
+                <option>软件13班</option>
+                <option>软件14班</option>
+                </optgroup>
+            </select><br/>
+            课程：
+            <input type="checkbox" name="course">c语言
+            <input type="checkbox" name="course">web
+            <input type="checkbox" name="course">微积分
+            <br/>
+            头像：<input type="file"><br/>
+            自我介绍：<textarea>Introduce yourself</textarea><br/>
+        </form>
+        This is an example of table,
+        <table>
+            <caption>Table 1-1  A simple table</caption>
+            <colgroup>
+                <col span="1">
+                <col span="2" id="ddd">
+            </colgroup>
+            <tr id="aaa">
+                <th colspan="2">11</th>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tbody id="bbb">
+                <th>21</th>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tbody id="ccc">
+                <th>31</th>
+                <td>32</td>
+                <td>33</td>
+            </tr>
+        </table><br/>
+        <table>
+            <tr>
+                <th colspan="2">2022</th>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <th rowspan="2">festival </th>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
